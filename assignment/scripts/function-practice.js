@@ -111,6 +111,7 @@ console.log('Summed values of testArray (21):', sumAll(testArray));
 //     return an empty array. Note: The input array should not change.
 let nextTestArray = [-2, 4, -6, 8, -10, 12];
 let noPositiveNumbers = [-1, -3, -5, -7];
+
 function arrayOfPositive(array){
   let returnedArray = [];
   for (let values of array){
